@@ -1,0 +1,143 @@
+.general_container{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.conatiner_threecom_main{
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.contaier_header{
+	position: fixed;
+	height: 120px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	background: #021d40;
+	z-index: 400;
+}
+.content_block{
+	display: block;
+	width: auto;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	/*background: #dddd;*/
+}
+.content_left{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding: 0px 20px;
+	height: 100%;
+}
+.content_rigth{
+	display: flex;
+	overflow: hidden;
+	width: auto;
+	flex-direction: row;
+	height: 100%;
+}
+.container_header_center{
+	width: 84%;
+	height: 100%;
+	display: block;
+	margin: 0px auto;
+}
+.threecomsac_logo_main{
+	display: block;
+	height: 80px;
+	width: 120px;
+	padding: 0px 5px;
+	background-repeat: no-repeat;
+}
+.content_block_rigth{
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	width: auto;
+	float: right;
+	padding: 0px 10px;
+}
+.nav_content{
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	height: 90%;
+	align-items: center;
+	width: auto;
+	/*background: #343434;*/
+}
+.nav_content .ul_header{
+	display: inline-flex;
+	/*display: flex;*/
+	flex-direction: row;
+	height: 100%;
+	overflow: hidden;
+	align-items: center;
+	padding: 0px 8px
+}
+.nav_content .ul_header .li_header{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	align-items: center;
+	padding: 0px;
+}
+.nav_content .ul_header .li_header .li_link{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-family: 'Alumni Sans Inline One', cursive;
+	font-size: 1.2rem;
+	color: #a0a0a0;
+}
+.nav_content .ul_header .li_header .li_link:hover{
+	background: #01295c;
+	color: #a5a5a5;
+}
+
+
+
+
+
+/**
+* floats buttons
+*/
+.btn_go_whatsapp, .btn_go_fb{
+	position: fixed;
+	display: block;
+	z-index: 9999;
+	height: 40px;
+	width: 40px;
+	right: 30px;
+	cursor: pointer;
+}
+.btn_go_whatsapp span{
+	font-size: 50px;
+	color: #327a3e;
+	height: 100%;
+	width: 100%;
+}
+.btn_go_fb span{
+	font-size: 50px;
+	color: #1a2364;
+	height: 100%;
+	width: 100%;
+}
+.btn_go_whatsapp{
+	bottom: 60px;
+	float: right;
+}
+.btn_go_fb{
+	bottom: 130px;
+	float: right;
+	
+}
