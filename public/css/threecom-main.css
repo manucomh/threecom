@@ -103,14 +103,6 @@
 	background: #01295c;
 	color: #a5a5a5;
 }
-
-
-
-
-
-/**
-* floats buttons
-*/
 .btn_go_whatsapp, .btn_go_fb{
 	position: fixed;
 	display: block;
@@ -140,4 +132,32 @@
 	bottom: 130px;
 	float: right;
 	
+}
+.div_menu_toggle{
+	display: none;
+	visibility: none;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	/*font-family: 'Alumni Sans Inline One', cursive;*/
+}
+.header_menu_span{
+	font-size: 3rem;
+	color: #a0a0a0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .div_menu_toggle {
+    display: flex;
+    visibility: visible;
+  }
+  .nav_content .ul_header{
+  	display: none;
+  	visibility: none;
+  }
+  
 }
