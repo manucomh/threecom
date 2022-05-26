@@ -8,6 +8,7 @@
 	<title>Servicio Técnico | THREECOM SAC | Telf.: 990995652</title>
 	<link rel="canonical" href="https://www.threecom.com">
 	<meta property="url" content="Somos el servicio técnico autorizado">
+	<link rel="stylesheet" type="text/css" href="public/css/animations.css">
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 		/*@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Roboto:wght@100;300&display=swap');*/
@@ -34,7 +35,7 @@
 				<div class="container_header_center">
 					<div class="content_block">
 						<div class="content_left">
-							<img src="public/images/threecomsac_logo.jpeg" class="threecomsac_logo_main">
+							<img src="public/images/THREECOM-SAC-MANUCO-PRO.png" class="threecomsac_logo_main">
 						</div>
 					</div>
 					<div class="content_block_rigth">
@@ -67,19 +68,23 @@
 										</a>
 									</li>
 								</ul>
-								<div class="div_content_icon_email">
-									<a href="" class="li_link">
-										<span class="material-icons md-48 header_email_span">
-											email
-										</span>
-									</a>
-								</div>
-								<div class="div_menu_toggle">
-									<span class="material-icons md-48 header_menu_span">
-										menu
-									</span>
-								</div>
 							</nav>
+							<div class="div_content_icon_telephone">
+								<a href="tel:+51990 995 652" class="li_link">
+									<span class="material-icons md-48 header_telephone_span">
+										phone
+									</span>
+									<ul class="ul_telephone_call">
+										<li>Llama a</li>
+										<li>990 995 652</li>
+									</ul>
+								</a>
+							</div>
+							<div class="div_menu_toggle">
+								<span class="material-icons md-48 header_menu_span">
+									menu
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -88,12 +93,34 @@
 		</div>
 		<div class="container_body_threecom">
 			<div class="element-motion-effects-layer-container">
-				<div class="element-motion-effects-layer">
-					<div class="flex-vertical-center"> 
-						<h1>Nuestros</h1>
-						<h2>Servicios</h2>
+				<div class="background_grey">
+					<div class="element-motion-effects-layer">
+						<div class="flex-vertical-center"> 
+							<h1>Nuestros</h1>
+							<h2>Servicios</h2>
+						</div>
 					</div>
 				</div>
+				<div class="info_whatsapp_threecom_center">
+					<a class="whatsapp_center" href="https://api.whatsapp.com/send?phone=51989783198&text=Necesito%20un%20repuesto" target="_blank">
+						<span class="text_whatsapp">Whatsapp</span>
+						<span class="number_whatsapp">989783198</span>
+					</a>
+				</div>
+				
+				<rs-arrow style="opacity: 1; transform: translate(22px, -20px); top: 50%; left: 0px;" class="tp-leftarrow tparrows hesperiden">
+					<span class="material-symbols-outlined">
+						chevron_right
+					</span>
+					<!-- <span class="material-icons md-48">left-arrow</span> -->
+				</rs-arrow>
+				<rs-arrow style="opacity: 1; transform: translate(-62px, -20px); top: 50%; left: 100%;" class="tp-rightarrow tparrows hesperiden">
+					<span class="material-symbols-outlined">
+						chevron_left
+					</span>
+					<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> -->
+				</rs-arrow>
+
 			</div>
 			<div class="second_container_body">
 				<h1 class="h1_tec">
@@ -225,7 +252,9 @@
 				<div class="container_wrap_maxwidth_center">
 					<div class="class_flex_width_max">
 						<div class="section_container_column one_section">
-							<img src="public/images/THREECOM_SAC.png" width="150xpx" height="30px" class="img_logo_threecom_sac">
+							<h2 class="explorer_navigation">THREECOM SAC</h2>
+							<!-- <img src="public/images/THREECOM_SAC.png" width="150xpx" height="30px" class="img_logo_threecom_sac"> -->
+							<img src="public/images/threecomsac_logo.jpeg" width="250px" height="200">
 							<br>
 							<p class="text_threecom">
 								En THREECOM SAC estamos dirigidos a prestar un servicio de calidad cumpliendo con los estándares de nuestros clientes.
@@ -257,16 +286,17 @@
 							<h2 class="contact_threecom">CONTACTO</h2>
 							<ul>
 								<li>
-									<span><></span>
+									<span class="material-symbols-outlined" style="font-family: 'Material Icons'; color: rgba(6,6,6,.9); font-size: 2rem; padding-right: .6rem">
+										where_to_vote
+									</span>
 									<span>Av Peru N° 234 Andahuaylas</span>
 								</li>
 								<li>
-									<span><></span>
-									<span>Av Peru N° 234 Andahuaylas</span>
-								</li>
-								<li>
-									<span><></span>
-									<span>soportethreecom@gmail.com</span>
+										<span class="material-icons md-48" style="font-family: 'Material Icons'; color: rgba(6,6,6,.9); font-size: 2rem; padding-right: .6rem">
+											mail
+										</span>
+										<span>soportethreecom@gmail.com</span>
+
 								</li>
 							</ul>
 							<br>
@@ -277,7 +307,7 @@
 								<h3 class="strong_text_call">
 									<strong>cel: </strong>
 									<strong>990 995 652</strong><br>
-									<strong>24/7 (al Número)</strong>
+									<strong>24/7 (Llama al:)</strong>
 								</h3>
 							</div>
 						</div>
@@ -297,7 +327,7 @@
 
 
 	<div class="btn_go_whatsapp">
-		<a class="whatsapp_go_link" href="https://api.whatsapp.com/send?phone=51989783198&text=Necesito%20un%20repuesto go-to-whatsapp" target="_blank">
+		<a class="whatsapp_go_link" href="https://api.whatsapp.com/send?phone=51989783198&text=Necesito%20un%20repuesto" target="_blank">
 			<span class="material-icons md-48" >
 				whatsapp 
 			</span>
@@ -311,5 +341,8 @@
 			</span>
 		</a>
 	</div>
+	<script type="text/javascript" src="public/js/jquery-3.6.0.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
+	<!-- icons for left and right arrow icon -->
 </body>
 </html>
