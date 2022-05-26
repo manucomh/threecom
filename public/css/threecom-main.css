@@ -582,7 +582,7 @@
 .foor_container_body{
 	display: block;
 	padding: 1rem 0rem;
-	background: #f3f3f3;
+	background: #fff;
 }
 .foor_container_body .container_wrap_maxwidth_center{
 	max-width: 950px;
